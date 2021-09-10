@@ -31,6 +31,8 @@ canvas.particles-js-canvas-el{
     margin-top: 0px;
 }
 
+
+
 /* Navigation Bar*/
 
 .nav-section .navbar-brand {
@@ -38,20 +40,20 @@ canvas.particles-js-canvas-el{
 
 }
 
-.nav-section .navbar-brand span {
+.navbar .navbar-brand span {
     color: #41b3e0;
 }
 
-.nav-section .navbar-nav li{
+.navbar .navbar-nav li{
     margin: 0px 8px;
 }
 
-.nav-section .navbar-nav li a{
+.navbar .navbar-nav li a{
     color: white !important;
     font-size: 15px;
 }
 
-.nav-section .navbar-nav .nav-link::before{
+.navbar .navbar-nav .nav-link::before{
     content:'';
     width: 0px;
     height: 0px;
@@ -61,7 +63,7 @@ canvas.particles-js-canvas-el{
     transition: 0.5s ;
 }
 
-.nav-section .navbar-nav .nav-link:hover::before{
+.navbar .navbar-nav .nav-link:hover::before{
     content: '';
     height: 2px;
     width: 17px;
@@ -71,6 +73,7 @@ canvas.particles-js-canvas-el{
     
 }
 
+/* Hero Section */
 
 .hero-section .row{
     display: flex;
@@ -373,6 +376,7 @@ canvas.particles-js-canvas-el{
     background-color: #30333f;
     padding: 170px 0px;
     padding-top: 100px;
+
 }
 
 .portfolio-section .nav-tabs{
