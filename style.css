@@ -271,7 +271,7 @@ canvas.particles-js-canvas-el{
     font-size: 13px;
 }
 
-.about-section .about-me-right-section button{
+.about-section .about-me-right-section button {
     border-radius: 7px;
     font-size: 15px;
     color: white;
@@ -281,7 +281,7 @@ canvas.particles-js-canvas-el{
     margin-top: 10px;
 }
 
-.about-section .about-me-right-section button:hover{
+.about-section .about-me-right-section button:hover {
     animation: ease-in-out;
     animation-duration: 0.5s;
 }
