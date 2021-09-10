@@ -168,7 +168,7 @@ canvas.particles-js-canvas-el{
 
 @media (max-width: 763px) and (min-width: 500px){
     .hero-section{
-        margin: 55px 0px;
+        margin: 135px 0px;
     }
     .hero-section .row h1{
         font-size: 46px;   
@@ -292,6 +292,7 @@ canvas.particles-js-canvas-el{
     }
 
     .about-section #heading{
-        font-size: 30px !important;
+        font-size: 28px !important;
+
     }
 }
