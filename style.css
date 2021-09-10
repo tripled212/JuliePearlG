@@ -212,3 +212,16 @@ canvas.particles-js-canvas-el{
         margin-top: 20px;
     }
 }
+
+
+/* About Me Section */
+.about-section {
+    background-color: #333647; 
+}
+
+.about-section #heading{
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    line-height: 57px;
+}
