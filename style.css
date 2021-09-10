@@ -216,7 +216,7 @@ canvas.particles-js-canvas-el{
 
 /* About Me Section */
 .about-section {
-    background-color: #333647; 
+    background-color: #30333f; 
     padding: 170px 0px;
 }
 
@@ -364,4 +364,44 @@ canvas.particles-js-canvas-el{
 .skills-section-right-section .each-skills .progress-bar{
     background: #41b3e0;
     color: transparent;
+}
+
+
+/* Portfolio Section */
+
+.portfolio-section {
+    background-color: #30333f;
+    padding: 170px 0px;
+}
+
+.portfolio-section .nav-tabs{
+    border: none;
+    width: 30%;
+    text-align: center;
+}
+
+.portfolio-section .nav-tabs .nav-link.active {
+    border: none;
+    color: white;
+    border-bottom: 2px solid #41b3e0 !important;
+    background: transparent;
+}
+
+.portfolio-section .nav-tabs .nav-link.active:hover{
+    border-bottom: 2px solid #41b3e0 !important;
+
+}
+
+.portfolio-section .nav-tabs .nav-item.show .nav-link{
+    font-weight: 400;
+    font-size: 14px;
+    background: transparent !important;
+}
+
+.portfolio-section .nav-tabs .nav-link{
+    border: none;
+}
+
+.portfolio-section .tab-content .card img{
+    border: 2px solid white;
 }
