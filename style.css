@@ -35,6 +35,9 @@ canvas.particles-js-canvas-el{
 
 /* Navigation Bar*/
 
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .nav-section .navbar-brand {
     font-size: 25px;
 
