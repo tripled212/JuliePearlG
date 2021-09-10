@@ -217,6 +217,7 @@ canvas.particles-js-canvas-el{
 /* About Me Section */
 .about-section {
     background-color: #333647; 
+    padding: 170px 0px;
 }
 
 .about-section #heading{
@@ -224,4 +225,73 @@ canvas.particles-js-canvas-el{
     font-size: 40px;
     letter-spacing: 0.5px;
     line-height: 57px;
+}
+
+.about-section .contact-me {
+    color: white;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+.about-section #info-gmail{
+    font-weight: 600;
+    font-size: 15px;
+    color: #41b3e0;
+    margin-top: 35px;
+    word-spacing: 6px;
+}
+
+.about-section .contact-info{
+    margin-top: 15px;
+}
+
+.about-section .contact-info h5{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    word-spacing: 6px;
+} 
+
+.about-section .about-me-right-section #txt{
+    font-size: 15px;
+    margin-top: 13px;
+    line-height: 25px;
+    color: #bbbbbb;
+}
+
+.about-section .about-me-right-section hr{
+    margin: 0px;
+    border: 0.5px solid #bbbbbb;
+    width: 6rem;
+}
+
+.about-section .about-me-right-section table td{
+    border: none;
+    color: white;
+    font-size: 13px;
+}
+
+.about-section .about-me-right-section button{
+    border-radius: 7px;
+    font-size: 15px;
+    color: white;
+    background-color: #41b3e0;
+    border: 3px solid #41b3e0;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
+.about-section .about-me-right-section button:hover{
+    animation: ease-in-out;
+    animation-duration: 0.5s;
+}
+
+@media (max-width: 993px) and (min-width: 768px){
+    .about-section .about-me-right-section #txt{
+        font-size: 12px;
+    }
+
+    .about-section #heading{
+        font-size: 30px !important;
+    }
 }
