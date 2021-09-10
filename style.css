@@ -1,0 +1,214 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+:root {
+    --background-color: #333647
+}
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:  var(--background-color) !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, td, a{
+    cursor: pointer;
+}
+
+canvas.particles-js-canvas-el{
+    position: absolute;
+    height: 100% !important;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1000;
+    margin-top: 0px;
+}
+
+/* Navigation Bar*/
+
+.nav-section .navbar-brand {
+    font-size: 25px;
+
+}
+
+.nav-section .navbar-brand span {
+    color: #41b3e0;
+}
+
+.nav-section .navbar-nav li{
+    margin: 0px 8px;
+}
+
+.nav-section .navbar-nav li a{
+    color: white !important;
+    font-size: 15px;
+}
+
+.nav-section .navbar-nav .nav-link::before{
+    content:'';
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    position: absolute;
+    bottom: 7px;
+    transition: 0.5s ;
+}
+
+.nav-section .navbar-nav .nav-link:hover::before{
+    content: '';
+    height: 2px;
+    width: 17px;
+    background-color: white;
+    position: absolute;
+    bottom: 7px;
+    
+}
+
+
+.hero-section .row{
+    display: flex;
+    align-items:center ;
+    height: 100vh;
+}
+
+.hero-section .row h1,h2,h3,p{
+    color: white;
+}
+
+.hero-section .row h3{
+    font-size: 19px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.hero-section .row h3::after {
+    content: '';
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 90px;
+    height: 2px;
+    background-color: white;
+    margin-left: 6px;
+}
+
+.hero-section .row h1{
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.hero-section .row h2{
+    font-size: 20px;
+    font-weight: 100;
+    margin: 8px 0px;
+}
+
+.hero-section .row p{
+    font-size: 13px;
+    margin-top: 13px;
+    line-height: 21px;
+    color: #bbbbbb;
+}
+
+.hero-section .row button{
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    background-color:#41b3e0;
+    border: 3px solid #41b3e0;
+    width: 113px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
+.hero-section .row button:hover{
+    animation: swing;
+    animation-duration: 0.10s;
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.hero-section .row img{
+    width: 80%;
+}
+
+
+@media (max-width: 1200px) and (min-width: 993px){
+    .hero-section .row h1{
+        font-size: 58px;
+         
+    }
+}
+
+@media (max-width: 993px) and (min-width: 763px){
+    .hero-section .row h1{
+        font-size: 42px;   
+    }
+    .hero-section .row h2{
+        font-size: 15px;   
+    }
+    .hero-section .row p{
+        font-size: 11px;   
+    }
+    .hero-section .row h3{
+        font-size: 15px;   
+    }
+    .hero-section .row button{
+        font-size: 15px;   
+    }
+}
+
+@media (max-width: 763px) and (min-width: 500px){
+    .hero-section{
+        margin: 55px 0px;
+    }
+    .hero-section .row h1{
+        font-size: 46px;   
+        text-align: center;
+    }
+    .hero-section .row h2{
+        font-size: 15px; 
+        text-align: center;  
+    }
+    .hero-section .row p{
+        font-size: 11px;
+        text-align: center;   
+    }
+
+    .hero-section .btn-container{
+        justify-content: center;
+        text-align: center;
+    }
+    .hero-section .row h3{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 0px;   
+    }
+    .hero-section .row h3::after{
+        width: 0px;
+    }
+
+    .hero-section .btn-container button{
+        width: 100px;
+        height: 43px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .hero-section .row button{
+        font-size: 15px;   
+    }
+
+    .hero-section img{
+        width: 40%;
+        margin-top: 20px;
+    }
+}
